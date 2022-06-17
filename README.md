@@ -4,7 +4,7 @@ package zap logger use with context
 
 ## Usage
 
-```gol
+```go
 func main() {
     //...
     ctx = zlog.With(ctx,  zap.String("request_id", requestID))
